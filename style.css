@@ -13,15 +13,18 @@ h2{
 }
 .flexiable-container{
     display: flex; 
-    margin-bottom: 150px;  
+    margin-bottom: 150px; 
+    
 }
 .half-width{
     width: 60%;
-    padding-left: 8%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
 }
 .half-width img{
     width: 100%;
+    margin-top: 50px;
 }
 .Link-button{
     text-decoration: none;
@@ -49,4 +52,8 @@ h2{
     border-image: linear-gradient(aqua, blue);
     border-image-slice: 1;
 
+}
+.lower-area{
+    background-image: url(lower-banner.png);
+    background-repeat: no-repeat;
 }
